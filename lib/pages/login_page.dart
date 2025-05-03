@@ -57,13 +57,13 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               CircleAvatar(
                 radius: 80, // Setengah dari diameter
-                backgroundImage: AssetImage('assets/images/my_logo.jpg'),
+                backgroundImage: AssetImage('assets/images/my_logoo.jpg'),
               ),
               // const SizedBox(height: 40),
               // // const FlutterLogo(size: 100),
               const SizedBox(height: 40),
               const Text(
-                'Selamat Datang di Aplikasi sihab',
+                'Selamat Datang di Aplikasi Damsik',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                 controller: _emailController,
                 decoration: InputDecoration(
                   labelText: 'Email',
-                  labelStyle: TextStyle(color: Colors.blue[800]), // Warna label
+                  labelStyle: TextStyle(color: const Color.fromARGB(255, 255, 2, 2)), // Warna label
                   hintText: 'contoh@email.com',
                   hintStyle: TextStyle(
                     color: Colors.grey[500],
@@ -145,7 +145,7 @@ class _LoginPageState extends State<LoginPage> {
                 controller: _passwordController,
                 decoration: InputDecoration(
                   labelText: 'Password',
-                  labelStyle: TextStyle(color: Colors.blue[800]), // Warna label
+                  labelStyle: TextStyle(color: const Color.fromARGB(255, 255, 2, 2)), // Warna label
                   hintText: 'Masukkan password Anda',
                   hintStyle: TextStyle(
                     color: Colors.grey[500],
