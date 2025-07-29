@@ -38,7 +38,7 @@ class DashboardPage extends StatelessWidget {
                     style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
                   Text(
-                    'sihab@example.com',
+                    'damsik@example.com',
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -95,7 +95,7 @@ class DashboardPage extends StatelessWidget {
             // Header
             const Text('Selamat Datang,', style: TextStyle(fontSize: 18)),
             const Text(
-              'Moh. Sihab Alfajri',
+              'Damsik',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
@@ -157,19 +157,19 @@ class DashboardPage extends StatelessWidget {
                 children: [
                   _buildActivityItem(
                     icon: Icons.task,
-                    title: 'Mengerjakan tugas Flutter',
+                    title: 'Damsik Mengerjakan tugas Flutter',
                     time: 'Hari ini, 10:30 AM',
                     color: Colors.blue,
                   ),
                   _buildActivityItem(
                     icon: Icons.check,
-                    title: 'Menyelesaikan modul UI',
+                    title: 'Menyelesaikan modul Belajar,
                     time: 'Kemarin, 3:45 PM',
                     color: Colors.green,
                   ),
                   _buildActivityItem(
                     icon: Icons.email,
-                    title: 'Menerima email baru',
+                    title: 'Menerima Pesan baru',
                     time: 'Kemarin, 9:15 AM',
                     color: Colors.orange,
                   ),
