@@ -34,7 +34,7 @@ class DashboardPage extends StatelessWidget {
                   CircleAvatar(radius: 30, child: Icon(Icons.person, size: 30)),
                   SizedBox(height: 10),
                   Text(
-                    'Muh. Sihab Alfajri',
+                    'Damsik',
                     style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
                   Text(
